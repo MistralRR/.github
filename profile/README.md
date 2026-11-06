@@ -1,4 +1,16 @@
-This is a RecRoom Revival that has been made by developers with years of coding experience including many programming languages like: C#, C++, Python, and more.
+Hello Mistral Developers!
+
+Here are some things that you can use when adding new APIs/services!
+
+# Mistral.cs
+
+## Mistral.LogRequest
+
+`await mistral.LogRequest();` - This logs all data about the current request, headers, json, and form data.
+
+## Mistral.Form
+
+`mistral.Form` - This class contains data about the current request's form. Usually, you can use `[FromForm]` in the request's method parameters. But if the current request has multiple unknown parameters, you can use `mistral.Form`.
 
 # Important Notes
 
